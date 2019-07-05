@@ -518,6 +518,9 @@ config TARGET_LP8X4X
 config TARGET_COLIBRI_PXA270
 	bool "Support colibri_pxa270"
 
+config xue4412
+	bool "Support xue4412"
+
 config TARGET_JORNADA
 	bool "Support jornada"
 
@@ -698,5 +701,6 @@ source "board/wandboard/Kconfig"
 source "board/woodburn/Kconfig"
 source "board/xaeniax/Kconfig"
 source "board/zipitz2/Kconfig"
+source "board/samsung/xue4412/Kconfig"
 
 endmenu

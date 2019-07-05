@@ -1,0 +1,12 @@
+if TARGET_ORIGEN
+
+config SYS_BOARD
+	default "xue4412"
+
+config SYS_VENDOR
+	default "samsung"
+
+config SYS_CONFIG_NAME
+	default "xue4412"
+
+endif
